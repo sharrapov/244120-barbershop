@@ -1,8 +1,17 @@
 body {
 	background-color: #f8f5f2;
-	font-family: sans-serif;
+	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 1em;
 	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
 }
 
 h1 {
@@ -13,4 +22,141 @@ h1 {
 h2 {
 	font-size: 1.5em;
 	text-transform: uppercase; 
+}
+
+ul {
+	list-style-type: none;
+}
+
+.main-header {
+	background-color: black;
+	margin-bottom: 60px;
+	
+}
+
+.main-header a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.main-navigation {
+	width: 780px;
+	float: left;
+}
+
+.user-block {
+	width: 140px;
+	float: right;
+}
+
+.filter {
+	float: left;
+	width: 220px;
+}
+
+.catalog {
+	float: right;
+	width: 700px;
+	font-size: 0;
+}
+
+.catalog-item {
+	background-color: white;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	width: 220px;
+	font-size: 14px;
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.20);
+    -moz-box-shadow:    0px 0px 15px 0px rgba(50, 50, 50, 0.20);
+    box-shadow:         0px 0px 15px 0px rgba(50, 50, 50, 0.20);
+}
+
+
+.catalog-item h2 {
+	font-size: 1em;
+	text-transform: none;
+	padding: 0 16px;
+}
+
+.catalog-item h2 span {
+	text-transform: uppercase;
+}
+
+
+.catalog-item .buy {
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-bottom: 16px;
+}
+
+.catalog-item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.gallery {
+	float: left;
+	width: 460px;
+}
+
+.gallery img {
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.20);
+    -moz-box-shadow:    0px 0px 15px 0px rgba(50, 50, 50, 0.20);
+    box-shadow:         0px 0px 15px 0px rgba(50, 50, 50, 0.20);
+}
+
+ul.gallery li {
+	float: left;
+	margin-right: 20px;
+	font-size: 0;
+}
+
+ul.gallery li:first-child {
+	margin-bottom: 20px;
+}
+
+ul.gallery li:last-child {
+	margin-right: 0;
+}
+
+.about-item {
+	float: right;
+	width: 390px;
+}
+
+.main-footer {
+	background-color: #232323;
+	margin-top: 50px;
+	color: white;
+	text-transform: uppercase;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+.main-footer a {
+	color: white;
+	text-transform: uppercase;
+}
+
+.footer-contacts {
+	float: left;
+	width: 380px;
+}
+
+.footer-social {
+	float: left;
+	margin-left: 20px;
+}
+
+.footer-copyright {
+	float: right;
+	margin-right: 0;
 }
