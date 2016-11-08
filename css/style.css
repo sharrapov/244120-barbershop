@@ -75,9 +75,9 @@ ul {
 	margin-bottom: 20px;
 	width: 220px;
 	font-size: 14px;
-	-webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.20);
-    -moz-box-shadow:    0px 0px 15px 0px rgba(50, 50, 50, 0.20);
-    box-shadow:         0px 0px 15px 0px rgba(50, 50, 50, 0.20);
+	-webkit-box-shadow: 0 0 15px 0 rgba(50, 50, 50, 0.20);
+    -moz-box-shadow:    0 0 15px 0 rgba(50, 50, 50, 0.20);
+    box-shadow:         0 0 15px 0 rgba(50, 50, 50, 0.20);
 }
 
 
@@ -108,9 +108,9 @@ ul {
 }
 
 .gallery img {
-	-webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.20);
-    -moz-box-shadow:    0px 0px 15px 0px rgba(50, 50, 50, 0.20);
-    box-shadow:         0px 0px 15px 0px rgba(50, 50, 50, 0.20);
+	-webkit-box-shadow: 0 0 15px 0 rgba(50, 50, 50, 0.20);
+    -moz-box-shadow:    0 0 15px 0 rgba(50, 50, 50, 0.20);
+    box-shadow:         0 0 15px 0 rgba(50, 50, 50, 0.20);
 }
 
 ul.gallery li {
